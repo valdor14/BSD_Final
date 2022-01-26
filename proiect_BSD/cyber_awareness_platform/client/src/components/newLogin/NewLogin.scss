@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,500);
+
+.Signin {
+  //background: linear-gradient(-45deg, #3b1485, #143f79, #48dab5a9, #64eee7a4);
+  background: linear-gradient(-45deg, #00233D, #003157, #48dab5a9, #64eee7a4);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+
+  display: fixed;
+
+  font-size: 1.2rem;
+}
+
+.login-form {
+  position: static;
+  width: 20rem;
+  align-content: center;
+}
+.login-p {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-family: "Roboto";
+  color: white;
+  font-size: 220%;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+}
+.login-content {
+  padding: 20% 0;
+}
+
+.login-form-label{
+  color: white;
+  padding-left: 35%;
+}
+.login-elem {
+  margin-left: 7rem;
+  background: transparent;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.808);
+}
+
+.login-img {
+  width: 200px;
+  height: 200px;
+  position: static;
+  margin-top: 4rem;
+  margin-left: 6rem;
+}
+
+.login-img:hover {
+  opacity: 50%;
+  transition-duration: 0.5s;
+}
+
+.login-button {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: 9.2rem;
+  cursor: pointer;
+  background: linear-gradient(
+    92.88deg,
+    #849bf0 9.16%,
+    #7e70da 43.89%,
+    #8259f3 64.72%
+  );
+  border-radius: 8px;
+  border: none;
+  width: 25%;
+  font-size: 16px;
+  border-style: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 300;
+  height: 2rem;
+
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+}
+.login-button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.4s;
+}
+
+.login-container {
+  height: 80%;
+  width: 20%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.2),
+    rgba(214, 221, 221, 0.7)
+  );
+  border-radius: 1rem;
+  min-width: 400px;
+  min-height: 750px;
+}
+#signOut {
+  text-align: center;
+  margin-left: 4rem;
+}
+.login-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
